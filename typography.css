@@ -1,0 +1,48 @@
+html{
+font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+    color: #F2F2F2;
+}
+
+.subtitle, .bodycopy, .littlecopy, .capslock {
+    font-family: 'Slabo 13px', serif;
+    z-index: 1;
+    color: #F2F2F2;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.subtitle{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.bodycopy{
+    font-size: 1.5rem;
+}
+
+.littlecopy{
+    font-size: 1rem;
+}
+
+.capslock{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}

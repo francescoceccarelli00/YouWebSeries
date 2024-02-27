@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<!--FRANCESCO CECCARELLI - LAVORO PER INTERFACCE WEB 2023-->
+
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:title" content="You - Netflix Series">
+    <meta property="og:description" content="Sito web creato per l'esame di Interfacce Web">
+    <meta property="og:image" content="https://hd2.tudocdn.net/1076180?w=824&h=494">
+
+    <link rel="stylesheet" href="stileYou.css">
+    <link rel="stylesheet" href="typography.css">
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Slabo+13px&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--BARRA DI NAVIGAIZONE HEADER-->
+
+<div class="header">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="sito/img/You-1.png" alt="Logo"></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" class="subtitle">HOME</a></li>
+                <li class="dropdown">
+                    <a href="la-serie.html" class="subtitle">LA SERIE</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="la-serie.html#trama" class="subtitle">TRAMA</a></li>
+                        <li><a href="la-serie.html#cast" class="subtitle">CAST</a></li>
+                        <li><a href="la-serie.html#curiosità" class="subtitle">CURIOSITÀ</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html" class="subtitle">GALLERY</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!--SFONDO INIZIALE-->
+<div class="container1">
+    <img src="sito/img/img_1.jpg" alt="sfondo iniziale" class="sfondo" style="width: 100%">
+    <div class= "testo_sfondo">
+        <h3 class="titolo">Entra nella mente <br> di Joe Goldberg</h3><br>
+        <button onClick="location.href='la-serie.html'" class="button1 subtitle">Scopri di più</button>
+    </div>
+</div>
+
+
+<div class="logo2"><img src="sito/img/You-2.png" alt="logo"></div>
+
+
+<div class="margin">
+
+<!--    IMMAGINI CHE SCORRONO-->
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="sito/img/index1.jpg" alt="Immagine 1">
+            </div>
+            <div class="slide">
+                <img src="sito/img/index2.jpg" alt="Immagine 2">
+            </div>
+            <div class="slide">
+                <img src="sito/img/index3.jpg" alt="Immagine 3">
+            </div>
+            <div class="slide">
+                <img src="sito/img/index4.jpg" alt="Immagine 4">
+            </div>
+        </div>
+    </div>
+
+<!--    TESTO-->
+
+    <div class="bodycopy">
+        <p>Entra nella mente di Joe Goldmberg, scopri le sue storie e non perderti nessun dettaglio per goderti al meglio ogni episodio e conoscere tutti i personaggi</p>
+    </div>
+
+</div>
+
+<!--FOOTER-->
+
+<div class="footer">
+    <div class="sinistra-footer">
+        <div class="logo3">
+            <a href="index.html"><img src="sito//img/You-1.png" alt="Logo"></a>
+        </div>
+        <div class="littlecopy">
+            <p>You è una serie targata netflix categorizzata come crime e thriller psicologico prodotta dal 2018.
+                Per maggiori informazioni in attesa della quinta e ultima stagione seguire i canali ufficiali qui sotto.</p>
+        </div>
+        <div class="icons">
+            <div class="icona">
+                <a href="https://www.facebook.com/YouNetflix/" target="_blank"><div class="dimensione-icona"><img src="sito/img/face.svg" alt="logo facebook"></div></a>
+            </div>
+            <div class="icona">
+                <a href="https://instagram.com/younetflix?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><div class="dimensione-icona"><img src="sito/img/inst.svg" alt="logo instagram" ></div></a>
+            </div>
+            <div class="icona">
+                <a href="https://it.wikipedia.org/wiki/You_(serie_televisiva)" target="_blank"><div class="dimensione-icona"><img src="sito/img/wiki.svg" alt="logo wikipedia" ></div></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="line">
+        <br>
+        <a href="index.html" class="capslock interlinea">home</a><br><br>
+        <a href="la-serie.html" class="capslock interlinea">la serie</a><br><br>
+        <a href="la-serie.html#trama" class="capslock interlinea spazio">- trama</a><br><br>
+        <a href="la-serie.html#cast" class="capslock interlinea spazio">- cast</a><br><br>
+        <a href="la-serie.html#curiosità" class="capslock interlinea spazio">- curiosità</a><br><br>
+        <a href="gallery.html" class="capslock interlinea">gallery</a><br>
+    </div>
+</div>
+
+
+</body>
+</html>
